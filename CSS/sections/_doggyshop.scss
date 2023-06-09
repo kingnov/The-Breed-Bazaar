@@ -1,0 +1,36 @@
+@use "../utilities/base" as *;
+@use "../utilities/mixins" as *;
+@use "../utilities/variables" as *;
+
+.shop {
+  // background-color: $pink;
+  &__category {
+    @include flex(space-between,center)
+  }
+    
+    .shop__image{
+        // background-color: $light-grey;
+        @include flex(center, flex-start);
+        gap: 1em;
+        box-shadow: 0 0 5px lightcoral;
+        
+        // margin-top:5em;
+        // padding: 1em;
+        // padding-top: 2em;
+        button{
+            background-color: #000;
+            color: $white;
+            font-size: 1.2rem;
+            padding: 0.5em;
+            // margin-top: 10em;
+        }
+        // .image{
+        //     margin-top: -10em;
+        // }
+    .content{
+        text-align: center;
+        // margin-top: 4em;
+    }
+    }
+
+}

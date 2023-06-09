@@ -1,0 +1,256 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.error {
+  border: 1px solid red !important;
+}
+
+.error-message {
+  color: red !important;
+}
+
+.login {
+  background-image: url(../../images/login.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.login__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.login h1 {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 4em;
+}
+.login p {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.hero {
+  height: 80vh;
+  position: relative;
+}
+.hero #myVideo {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: inherit;
+  top: 0;
+  z-index: -1;
+}
+.hero__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+.nav {
+  height: 7em;
+  background-color: #537188;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.nav__left img {
+  width: 50px;
+  height: 50px;
+  border-radius: 3em;
+}
+.nav__center ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  gap: 2em;
+}
+.nav__center ul li {
+  list-style-type: none;
+}
+.nav__center ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.nav__right ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  gap: 2em;
+}
+.nav__right ul li {
+  list-style-type: none;
+}
+.nav__right ul .hoover {
+  width: 400px;
+  min-height: 100px;
+  background-color: #fff;
+  position: absolute;
+}
+
+.footer {
+  background-color: #537188;
+  height: 100%;
+}
+.footer__group123 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.signup {
+  background-image: url(../../images/signup2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+.signup__sign123 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.motivation h2 {
+  text-align: center;
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+.motivation__content123 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 auto;
+}
+.motivation__content {
+  width: 30%;
+  padding: 1em;
+  text-align: center;
+}
+.motivation__content__image {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+.motivation__content__image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.motivation__content h3 {
+  margin: 1.5em 0;
+}
+.motivation__content p {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.breed {
+  background-color: #537188;
+  padding: 6em 0;
+}
+.breed h2 {
+  text-align: center;
+  margin-bottom: 2em;
+}
+.breed__category123 {
+  margin: 0 auto;
+}
+.breed__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.shop__category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.shop .shop__image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 1em;
+  box-shadow: 0 0 5px lightcoral;
+}
+.shop .shop__image button {
+  background-color: #000;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.5em;
+}
+.shop .shop__image .content {
+  text-align: center;
+}
+
+.form {
+  background-image: url(../../images/add2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.form__container form {
+  background-color: lightgray;
+  border-radius: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+.form__container form h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+.form__container form button {
+  padding: 1em;
+  border: none;
+  border-radius: 2px;
+}
+.form__container input {
+  padding: 2em;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1em;
+  margin-bottom: 1rem;
+}

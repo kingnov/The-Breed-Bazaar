@@ -1,0 +1,11 @@
+@use "../utilities/base" as *;
+@use "../utilities/mixins" as *;
+@use "../utilities/variables" as *;
+.footer {
+background-color: $light-grey;
+height: 100%;
+&__group123{
+    @include flex(space-between,center);
+}
+
+}

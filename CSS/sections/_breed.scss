@@ -1,0 +1,19 @@
+@use "../utilities/base" as *;
+@use "../utilities/mixins" as *;
+@use "../utilities/variables" as *;
+.breed{
+    background-color: $light-grey;
+    padding:6em 0;
+    h2{
+        text-align: center;
+        margin-bottom: 2em;
+    }
+&__category123{
+   margin: 0 auto; 
+}
+
+    &__content{
+        @include flex(space-between, center);
+
+    }
+}
